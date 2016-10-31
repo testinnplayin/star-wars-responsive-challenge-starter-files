@@ -1,0 +1,22 @@
+/* Style sheet for index.html styles
+* Author: R. Wood; */
+
+/* GENERAL STYLES */
+
+
+
+/* HEADER STYLES */
+
+.header {
+	background-color: #F0BD35;
+	margin-top: -25px;
+	padding: 15px 20px;
+}
+
+.header p {
+	margin-top: -10px;
+}
+
+
+
+/* ROW and COLUMN STYLES */
