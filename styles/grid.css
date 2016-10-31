@@ -1,0 +1,62 @@
+/* Style sheet for responsive grid using float
+*Author: R. Wood; 
+*/
+
+/* GENERAL STYLES */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+
+
+/* ROWS */
+
+.row { /* must extend full width and have gutters of 20px on either side*/
+	max-width: 1000px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.row::before, /* content must extend from top of page to bottom */
+.row::after {
+	display: table;
+	content: '';
+}
+
+.row::after { /* keep content from butting up */
+	clear: both;
+}
+
+
+
+/* COLUMNS */
+
+.col-4 { /* 10px gutter on each side, 10/960 is 0.0104167*/
+	padding: 0 0.010467%;
+	float: left;
+}
+
+
+
+/* MOBILE SCREEN */
+
+.col-4 {
+	width: 100%;
+}
+
+
+
+/* DESKTOP SCREEN */
+
+@media only screen and (min-width: 640px) {
+	.col-4 {
+		width: 33.3333%
+	}
+}
