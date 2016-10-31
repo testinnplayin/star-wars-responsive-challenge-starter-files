@@ -3,7 +3,9 @@
 
 /* GENERAL STYLES */
 
-
+main {
+	margin-top: 25px;
+}
 
 /* HEADER STYLES */
 
@@ -19,5 +21,13 @@
 
 
 
-/* ROW and COLUMN STYLES */
+/* PICTURE STYLES */
 
+.pic-panel {
+	border: 1px solid #C0C0C0;
+	margin: 10px 0;
+}
+
+.pic-panel img {
+	width: 100%;
+}
