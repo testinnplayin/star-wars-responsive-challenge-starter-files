@@ -39,7 +39,7 @@ html {
 /* COLUMNS */
 
 .col-4 { /* 10px gutter on each side, 10/960 is 0.0104167*/
-	padding: 0 0.010467%;
+	padding: 0 1.04167%;
 	float: left;
 }
 

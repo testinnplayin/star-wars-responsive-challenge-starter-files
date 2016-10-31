@@ -12,16 +12,17 @@ main {
 .header {
 	background-color: #F0BD35;
 	margin-top: -25px;
-	padding: 15px 20px;
+	padding: 20px 0 10px;
 }
 
 .header p {
 	margin-top: -10px;
+	padding-left: 5px;
 }
 
 
 
-/* PICTURE STYLES */
+/* PICTURE PANEL STYLES */
 
 .pic-panel {
 	border: 1px solid #C0C0C0;
@@ -30,4 +31,8 @@ main {
 
 .pic-panel img {
 	width: 100%;
+}
+
+.pic-info {
+	margin-left: 15px;
 }
